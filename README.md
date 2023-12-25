@@ -1,7 +1,10 @@
 # Breast Cancer Classification Project
 
 ## Overview
-This project utilizes scikit-learn to train a Gaussian Naive Bayes classifier for breast cancer classification. It includes data loading, exploration, visualization, model training, and evaluation. Additionally, it demonstrates the use of permutation importance for feature analysis.
+This project utilizes scikit-learn to train a Gaussian Naive Bayes classifier for breast cancer classification. It includes data loading, exploration, visualization, model training, and evaluation. Additionally, it demonstrates the use of permutation importance for feature analysis:
+
+
+![Alt text](permutation_importances.png)
 
 ## Files
 - `cancer_cell_classifier.ipynb`: Python script containing the main code for the project.
@@ -33,7 +36,6 @@ selected_features = ['area error', 'worst area']
 
 The script outputs model evaluation metrics and displays visualizations, including pair plots, bar plots of permutation importances, and confusion matrices.
 
-![Alt text](permutation_importances.png)
 
 ## Dependencies
 
