@@ -37,6 +37,8 @@ selected_features = ['area error', 'worst area']
 The script outputs model evaluation metrics and displays visualizations, including pair plots, bar plots of permutation importances, and confusion matrices.
 
 
+![Alt text](confusion_matrix.png)
+
 ## Dependencies
 
 scikit-learn
